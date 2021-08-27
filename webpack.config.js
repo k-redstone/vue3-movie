@@ -37,7 +37,7 @@ module: {
       use: [
         // 순서가 중요
         'vue-style-loader',
-        'style-loader',
+        // 'style-loader',
         'css-loader',
         'postcss-loader',
         'sass-loader'
